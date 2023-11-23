@@ -4,7 +4,7 @@ const ChatInput = (props) => {
   return (
     <div className="chat_input">
       <input
-        onkeyDown={props.send}
+        onKeyDown={props.send}
         placeholder="Type a message ... Hit Enter to send"
       />
     </div>
